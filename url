@@ -20,3 +20,4 @@ urlpatterns = patterns('',
     url(r'^update_book/', 'mybook.views.Update_book', name='Update_book'),
     url(r'^admin/', include(admin.site.urls)),
 )
+#1111111111111111111
