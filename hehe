@@ -8,8 +8,7 @@ def Home(request):
     books = Book.objects.all()
     return render(request, 'home.html',{'books':books})
 
-def Serch_table(request):
-    return render(request, 'serch.html')
+
     
 def add_b(request):
     return render(request, 'add_book.html',{'i':0})
